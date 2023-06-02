@@ -71,6 +71,7 @@ require("flutter-tools").setup({
         settings = {
             showTodos = true,
             completeFunctionCalls = true,
+            analysisExcludedFolders = { "D:\\dev\\flutter", "$HOME/AppData/Local/Pub/Cache" },
             renameFilesWithClasses = "promt",
             enableSnippets = true,
             updateImportsOnRename = true,
