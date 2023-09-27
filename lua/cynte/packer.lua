@@ -64,8 +64,10 @@ return require('packer').startup(function(use)
         },
     }
     -- liveserver
-    use 'manzeloth/live-server'
-    use 'j-hui/fidget.nvim'
+    -- use 'manzeloth/live-server'
+    use { 'j-hui/fidget.nvim',
+        tag = "legacy",
+    }
     use 'windwp/nvim-autopairs'
     -- Harpoon
     use 'ThePrimeagen/harpoon'
