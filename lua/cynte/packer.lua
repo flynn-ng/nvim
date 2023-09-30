@@ -83,6 +83,9 @@ return require('packer').startup(function(use)
             require("trouble").setup {}
         end
     })
+    -- Comment
+    use 'numToStr/Comment.nvim'
+
     -- Nvim Tree
-    -- use 'nvim-tree/nvim-tree.lua'
+    use 'nvim-tree/nvim-tree.lua'
 end)
